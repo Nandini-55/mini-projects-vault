@@ -1,0 +1,32 @@
+Purpose:
+A simple, interactive web application to help users manage daily tasks efficiently. Users can add, mark as complete, and visually track their tasks.
+
+Key Features:
+
+Add Tasks: Users can type a task in an input field and press Enter to add it to the list.
+
+Custom Checkboxes: Stylish circular checkboxes with hover and checked effects.
+
+Mark Complete: When a task is completed, the text is visually marked with a strikethrough.
+
+Dynamic UI: Tasks appear instantly as the user types, and completed tasks update dynamically.
+
+Input Validation: Only letters and spaces are allowed in task names; invalid characters are ignored.
+
+Modern Styling: Semi-transparent, frosted-glass effect for input and tasks, smooth hover effects, and responsive layout.
+
+Technologies Used:
+
+HTML & CSS: Layout, styling, and visual effects
+
+JavaScript: DOM manipulation, event handling, and dynamic updates
+
+Learning Outcomes:
+
+DOM manipulation and event handling in JavaScript
+
+Custom checkbox design and CSS pseudo-elements
+
+Input validation and real-time content updating
+
+Modern UI styling using transparency, blur effects, and responsive design
