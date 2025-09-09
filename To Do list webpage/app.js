@@ -1,5 +1,6 @@
 let input = document.querySelector(".add");
 let ul = document.querySelector("ul");
+
 input.addEventListener("keyup",function(event){
     if(event.key=="Enter" && input.value!=""){
         let item = document.createElement("li");
@@ -12,14 +13,25 @@ input.addEventListener("keyup",function(event){
         label.classList.add("main");
         let text = document.createElement("span");
         text.classList.add("text");
+        let del = document.createElement("button");
+        del.classList.add("delete");
         label.appendChild(checkInp);
         label.appendChild(span);
         label.appendChild(text);
         text.append(input.value);
         item.appendChild(label);
-        console.log(item);
+        item.appendChild(del);
         ul.appendChild(item);
         input.value="";
 
     }    
+});
+
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON"){//nodeName:"BUTTON"
+    let btn= event.target;
+    let par =btn.parentElement;
+    par.remove();
+}
 })
+
