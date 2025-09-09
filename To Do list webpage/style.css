@@ -98,3 +98,22 @@ input[type=checkbox]{
         .main input:checked~.checkbox::after {
             display: block;
         }
+.delete {
+    background-color: transparent;
+    width: 30px; 
+    height: 30px;
+    background-image: url("assets/dustbin.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 50%;            
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    opacity: 0.3;
+}
+.delete:hover {
+    opacity: 0.6;
+}
+
