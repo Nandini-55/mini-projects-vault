@@ -1,0 +1,10 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  background:
+    radial-gradient(circle at top left, #f8fbff, transparent 35%),
+    radial-gradient(circle at bottom right, #ffd9b8, transparent 30%),
+    linear-gradient(135deg, #bcc9e3, #cfd8ea, #b7c4de);
+}
